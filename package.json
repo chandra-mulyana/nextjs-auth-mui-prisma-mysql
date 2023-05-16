@@ -1,0 +1,30 @@
+{
+	"name": "starter-nextjs13-mui5",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@emotion/core": "^11.0.0",
+		"@emotion/react": "^11.10.6",
+		"@emotion/server": "^11.10.0",
+		"@emotion/styled": "^11.10.6",
+		"@fontsource/roboto": "^4.5.8",
+		"@mui/icons-material": "^5.11.9",
+		"@mui/material": "^5.11.10",
+		"@next/font": "13.1.6",
+		"@prisma/client": "^4.14.0",
+		"bcryptjs": "^2.4.3",
+		"eslint": "8.34.0",
+		"eslint-config-next": "13.1.6",
+		"next": "13.1.6",
+		"next-auth": "^4.22.1",
+		"prisma": "^4.14.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	}
+}
