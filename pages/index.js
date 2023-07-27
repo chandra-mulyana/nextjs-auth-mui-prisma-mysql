@@ -3,12 +3,11 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { useRouter } from "next/dist/client/router";
-import { signOut, useSession, getSession } from "next-auth/react";
+import { signOut, getSession } from "next-auth/react";
 
-// export default function Index(props) {
-export default function Index() {
-	const { data: session } = useSession();
+export default function Index(props) {
 	const router = useRouter();
+	const session = props.user;
 
 	return (
 		<Container maxWidth="lg">
@@ -52,6 +51,7 @@ export async function getServerSideProps(context) {
 		};
 	}
 
+	const hasil = 1;
 	return {
 		props: {
 			...session,
